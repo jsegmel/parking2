@@ -1,0 +1,93 @@
+.principal{
+    align-self: center;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    height: 2000px;
+    width: 80%;
+    animation-name: principal_animation;
+    animation-duration: 2s;
+}
+@keyframes principal_animation {
+    0% {
+      height: 0%;
+      
+    }
+  
+    100% {
+     height: 100%;
+    }
+
+  }
+.imagen{
+    
+    width: 45%;
+    height: 90%;
+    
+}
+.img_coche{
+    max-width: 100%;
+    height: 600px;
+    animation-name: img_animation;
+    animation-duration: 2s;
+}
+@keyframes img_animation {
+    from {
+      width: 0%;
+      
+    }
+  
+    to {
+     width: 100%;
+    }
+  }
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 10px;
+    width: 45%;
+    font-size:x-large;
+    color: azure;
+    animation-name: text_animation;
+    animation-duration: 5s;
+}
+
+@keyframes text_animation {
+    from {
+      color:#424341;
+    }
+  
+    to {
+      color: aliceblue;
+    }
+  }
+  @media (max-width: 600px) {
+    .principal{
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content:space-around;
+      width: 90%;
+      animation-name: principal_animation;
+      animation-duration: 2s;
+  }
+  .imagen{
+    
+    width:100%;
+    height: 50%;
+    
+  }
+  .texto{
+    width: 100%;
+    font-size:small;
+    color: azure;
+    animation-name: text_animation;
+    animation-duration: 5s;
+  }
+  .img_coche{
+    max-width: 100%;
+    height: 100%;
+    animation-name: img_animation;
+    animation-duration: 2s;
+  }
+  }

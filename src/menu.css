@@ -1,0 +1,34 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 0px;
+    background-color:#424341;
+    width: 100%;
+    height: 96px;
+}
+.menu_container{
+    margin-right: 50px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    
+}
+@media (max-width: 600px) {
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-top: 0px;
+        background-color:#424341;
+        width: 100%;
+        height: 50px;
+    }
+    .menu_container{
+        margin-right: 0px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        
+    }
+}

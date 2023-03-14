@@ -1,0 +1,23 @@
+.form-container{
+  height: 80%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-login{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 60%;
+  align-items: left;
+}
+.field{
+  animation-name: field_animation;
+  animation-duration: 1s;
+}
+@keyframes field_animation {
+  0% {
+    width: 0%;
+  }
+}

@@ -1,0 +1,16 @@
+.label{
+    width: 50 px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    width: 150px;
+    
+}
+.error{
+    margin-left: 20px;
+    color: tomato;
+    font-size: large;
+}
+

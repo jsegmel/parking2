@@ -1,0 +1,29 @@
+.LinkMenu{
+    display: flex;
+    width: 211px;
+    height: 55px;
+    background-color:#D5E800;
+    color: black;
+    margin: auto,5px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.LinkMenu:hover{
+    width: 250px;
+    height: 60px;
+    
+}
+@media (max-width: 600px) {
+    .LinkMenu{
+        display: flex;
+        width: 100px;
+        height: 35px;
+        background-color:#D5E800;
+        color: black;
+        margin: auto,5px;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+}
